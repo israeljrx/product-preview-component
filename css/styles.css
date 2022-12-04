@@ -34,17 +34,14 @@ a{
   margin: 0 auto;
 }
 
-.product picture, .product picture .mobile{
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
+.product picture .desktop{
+  display: none;
 }
 
 .product picture .mobile{
   max-width: 100%;
-}
-
-.product picture .desktop{
-  display: none;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
 .product .details{
@@ -129,11 +126,8 @@ a{
   }
 
   .product picture .desktop{
-    object-fit: contain;
-    max-width: 100%;
     display: block;
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
+    max-width: 100%;
   }
 
   .product .details{
